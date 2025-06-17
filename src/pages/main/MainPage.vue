@@ -108,11 +108,11 @@
     after-class="overflow-hidden q-ml-sm"
     separator-class="bg-red"
     class="bg-amber-1"
-    style="height: calc(100vh - 200px); width: 100%"
+    style="height: calc(100vh - 280px); width: 100%"
   >
     <template v-slot:before>
       <q-table
-        style="height: calc(100vh - 200px); width: 100%"
+        style="height: 100%; width: 100%"
         color="primary"
         card-class="bg-amber-1"
         row-key="dte"
@@ -633,9 +633,5 @@ export default {
 </script>
 
 <style scoped>
-
-.feedback__file {
-  display: none;
-}
 
 </style>
